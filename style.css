@@ -17,7 +17,8 @@
 li{
     display: inline;
     padding: 20px; 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     
  
 }
@@ -45,5 +46,14 @@ ul{
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+ }
+ a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+
+ }
+ a:hover, li .on{
+    color: rgb(160, 31, 31);
  }
 
